@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="jsp-api">
+    <archive path="C:/Users/root/Desktop/jspEmp/web/WEB-INF/lib/jsp-api.jar" />
+    <archive path="C:/Users/root/Desktop/jspEmp/web/WEB-INF/lib/ojdbc6.jar" />
+    <archive path="C:/Users/root/Desktop/jspEmp/web/WEB-INF/lib/servlet-api.jar" />
+  </library>
+</eclipse-userlibraries>
+
