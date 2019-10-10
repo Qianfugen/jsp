@@ -1,0 +1,784 @@
+2019-10-09 17:32:12  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 17:32:12  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 17:32:12  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 17:32:12  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 17:32:12  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 17:32:12  Opening JDBC Connection
+2019-10-09 17:32:13  Created connection 422250493.
+2019-10-09 17:32:13  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@192b07fd]
+2019-10-09 17:32:13  ==>  Preparing: insert into news(newsid,title,context,newsman,newsdate,typeid,pic) values (?,?,?,?,?,?,?) 
+2019-10-09 17:32:13  ==> Parameters: 111(Integer), 柯南(String), 真正的凶犯(String), 工藤新一(String), 2019-10-08 00:00:00.0(Timestamp), 3(Integer), ../img/jdaj.png(String)
+2019-10-09 17:32:13  <==    Updates: 1
+2019-10-09 17:32:13  Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@192b07fd]
+2019-10-09 17:32:13  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@192b07fd]
+2019-10-09 17:32:13  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@192b07fd]
+2019-10-09 17:32:13  Returned connection 422250493 to pool.
+2019-10-09 17:35:37  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 17:35:37  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 17:35:37  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 17:35:37  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 17:35:37  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 17:35:37  Opening JDBC Connection
+2019-10-09 17:35:38  Created connection 422250493.
+2019-10-09 17:35:38  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@192b07fd]
+2019-10-09 17:35:38  ==>  Preparing: insert into news(newsid,title,context,newsman,newsdate,typeid,pic) values (?,?,?,?,?,?,?) 
+2019-10-09 17:35:38  ==> Parameters: 111(Integer), 柯南(String), 真正的凶犯(String), 工藤新一(String), 2019-10-08 00:00:00.0(Timestamp), 3(Integer), ../img/jdaj.png(String)
+2019-10-09 17:35:38  <==    Updates: 1
+2019-10-09 17:35:38  Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@192b07fd]
+2019-10-09 17:35:38  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@192b07fd]
+2019-10-09 17:35:38  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@192b07fd]
+2019-10-09 17:35:38  Returned connection 422250493 to pool.
+2019-10-09 17:48:43  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 17:48:43  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 17:48:43  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 17:48:43  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 17:48:43  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 17:48:44  Opening JDBC Connection
+2019-10-09 17:48:45  Created connection 540159270.
+2019-10-09 17:48:45  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:45  ==>  Preparing: delete from news where id=? 
+2019-10-09 17:48:45  ==> Parameters: 61(Integer)
+2019-10-09 17:48:45  <==    Updates: 1
+2019-10-09 17:48:45  Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:45  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:45  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:45  Returned connection 540159270 to pool.
+2019-10-09 17:48:45  Opening JDBC Connection
+2019-10-09 17:48:45  Checked out connection 540159270 from pool.
+2019-10-09 17:48:45  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:45  ==>  Preparing: delete from news where id=? 
+2019-10-09 17:48:45  ==> Parameters: 62(Integer)
+2019-10-09 17:48:45  <==    Updates: 1
+2019-10-09 17:48:45  Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:45  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:45  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:45  Returned connection 540159270 to pool.
+2019-10-09 17:48:45  Opening JDBC Connection
+2019-10-09 17:48:45  Checked out connection 540159270 from pool.
+2019-10-09 17:48:45  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:45  ==>  Preparing: delete from news where id=? 
+2019-10-09 17:48:45  ==> Parameters: 63(Integer)
+2019-10-09 17:48:45  <==    Updates: 1
+2019-10-09 17:48:45  Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:45  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:45  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:45  Returned connection 540159270 to pool.
+2019-10-09 17:48:45  Opening JDBC Connection
+2019-10-09 17:48:45  Checked out connection 540159270 from pool.
+2019-10-09 17:48:45  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:45  ==>  Preparing: delete from news where id=? 
+2019-10-09 17:48:45  ==> Parameters: 64(Integer)
+2019-10-09 17:48:45  <==    Updates: 1
+2019-10-09 17:48:45  Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:45  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:45  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:45  Returned connection 540159270 to pool.
+2019-10-09 17:48:45  Opening JDBC Connection
+2019-10-09 17:48:45  Checked out connection 540159270 from pool.
+2019-10-09 17:48:45  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:45  ==>  Preparing: delete from news where id=? 
+2019-10-09 17:48:45  ==> Parameters: 65(Integer)
+2019-10-09 17:48:46  <==    Updates: 1
+2019-10-09 17:48:46  Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:46  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:46  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:46  Returned connection 540159270 to pool.
+2019-10-09 17:48:46  Opening JDBC Connection
+2019-10-09 17:48:46  Checked out connection 540159270 from pool.
+2019-10-09 17:48:46  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:46  ==>  Preparing: delete from news where id=? 
+2019-10-09 17:48:46  ==> Parameters: 66(Integer)
+2019-10-09 17:48:46  <==    Updates: 1
+2019-10-09 17:48:46  Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:46  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:46  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:46  Returned connection 540159270 to pool.
+2019-10-09 17:48:46  Opening JDBC Connection
+2019-10-09 17:48:46  Checked out connection 540159270 from pool.
+2019-10-09 17:48:46  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:46  ==>  Preparing: delete from news where id=? 
+2019-10-09 17:48:46  ==> Parameters: 67(Integer)
+2019-10-09 17:48:46  <==    Updates: 1
+2019-10-09 17:48:46  Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:46  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:46  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:46  Returned connection 540159270 to pool.
+2019-10-09 17:48:46  Opening JDBC Connection
+2019-10-09 17:48:46  Checked out connection 540159270 from pool.
+2019-10-09 17:48:46  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:46  ==>  Preparing: delete from news where id=? 
+2019-10-09 17:48:46  ==> Parameters: 68(Integer)
+2019-10-09 17:48:46  <==    Updates: 1
+2019-10-09 17:48:46  Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:46  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:46  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:46  Returned connection 540159270 to pool.
+2019-10-09 17:48:46  Opening JDBC Connection
+2019-10-09 17:48:46  Checked out connection 540159270 from pool.
+2019-10-09 17:48:46  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:46  ==>  Preparing: delete from news where id=? 
+2019-10-09 17:48:46  ==> Parameters: 69(Integer)
+2019-10-09 17:48:46  <==    Updates: 1
+2019-10-09 17:48:46  Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:46  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:46  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 17:48:46  Returned connection 540159270 to pool.
+2019-10-09 17:49:44  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 17:49:44  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 17:49:44  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 17:49:44  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 17:49:44  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 17:49:44  Opening JDBC Connection
+2019-10-09 17:49:45  Created connection 422250493.
+2019-10-09 17:49:45  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@192b07fd]
+2019-10-09 17:49:45  ==>  Preparing: insert into news(newsid,title,context,newsman,newsdate,typeid,pic) values (?,?,?,?,?,?,?) 
+2019-10-09 17:49:45  ==> Parameters: 111(Integer), 柯南(String), 真正的凶犯(String), 工藤新一(String), 2019-10-08 00:00:00.0(Timestamp), 3(Integer), ../img/jdaj.png(String)
+2019-10-09 17:49:45  <==    Updates: 1
+2019-10-09 17:49:45  Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@192b07fd]
+2019-10-09 17:49:45  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@192b07fd]
+2019-10-09 17:49:45  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@192b07fd]
+2019-10-09 17:49:45  Returned connection 422250493 to pool.
+2019-10-09 17:55:48  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 17:55:48  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 17:55:48  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 17:55:48  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 17:55:48  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 17:55:48  Opening JDBC Connection
+2019-10-09 17:55:49  Created connection 230835489.
+2019-10-09 17:55:49  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@dc24521]
+2019-10-09 17:55:49  ==>  Preparing: select * from news where id=? 
+2019-10-09 17:55:49  ==> Parameters: 70(Integer)
+2019-10-09 17:55:49  <==      Total: 1
+2019-10-09 17:55:49  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@dc24521]
+2019-10-09 17:55:49  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@dc24521]
+2019-10-09 17:55:49  Returned connection 230835489 to pool.
+2019-10-09 17:57:40  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 17:57:40  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 17:57:40  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 17:57:40  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 17:57:40  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 17:57:40  Opening JDBC Connection
+2019-10-09 17:57:42  Created connection 230835489.
+2019-10-09 17:57:42  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@dc24521]
+2019-10-09 17:57:42  ==>  Preparing: select * from news where id=? 
+2019-10-09 17:57:42  ==> Parameters: 70(Integer)
+2019-10-09 17:57:42  <==      Total: 1
+2019-10-09 17:57:42  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@dc24521]
+2019-10-09 17:57:42  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@dc24521]
+2019-10-09 17:57:42  Returned connection 230835489 to pool.
+2019-10-09 17:57:42  Opening JDBC Connection
+2019-10-09 17:57:42  Checked out connection 230835489 from pool.
+2019-10-09 17:57:42  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@dc24521]
+2019-10-09 17:57:42  ==>  Preparing: update news set newsid=?,title=?,context=?,newsman=?,newsdate=?,typeid=?,pic=? where id=? 
+2019-10-09 17:57:42  ==> Parameters: 111(Integer), 毛利小五郎(String), 真正的凶犯(String), 工藤新一(String), 2019-10-08 00:00:00.0(Timestamp), 3(Integer), ../img/7758258.png(String), 70(Integer)
+2019-10-09 17:57:42  <==    Updates: 1
+2019-10-09 17:57:42  Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@dc24521]
+2019-10-09 17:57:42  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@dc24521]
+2019-10-09 17:57:42  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@dc24521]
+2019-10-09 17:57:42  Returned connection 230835489 to pool.
+2019-10-09 19:36:19  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 19:36:19  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:36:19  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:36:19  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:36:19  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:39:49  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 19:39:49  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:39:49  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:39:49  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:39:49  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:41:15  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 19:41:15  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:41:15  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:41:15  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:41:15  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:43:19  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 19:43:19  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:43:19  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:43:19  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:43:19  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:44:46  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 19:44:46  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:44:46  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:44:46  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:44:46  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:47:16  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 19:47:16  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:47:16  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:47:16  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:47:16  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:54:22  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 19:54:22  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:54:22  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:54:22  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:54:22  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 19:54:23  Opening JDBC Connection
+2019-10-09 19:54:24  Created connection 143110009.
+2019-10-09 19:54:24  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@887af79]
+2019-10-09 19:54:24  ==>  Preparing: select * from (select e.*, rownum r from (select * from news WHERE title like concat('%', concat(?, '%')) and context like concat('%', concat(?, '%')) ) e) where r>? and r <=] ? 
+2019-10-09 19:54:24  ==> Parameters: 毛利(String), 凶犯(String), 0(Integer), 3(Integer)
+2019-10-09 20:04:15  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 20:04:15  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:04:15  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:04:15  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:04:15  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:08:07  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 20:08:07  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:08:07  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:08:07  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:08:07  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:10:17  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 20:10:17  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:10:17  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:10:17  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:10:17  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:11:59  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 20:11:59  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:11:59  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:11:59  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:11:59  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:14:08  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 20:14:08  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:14:08  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:14:08  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:14:08  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:14:08  Opening JDBC Connection
+2019-10-09 20:14:09  Created connection 230835489.
+2019-10-09 20:14:09  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@dc24521]
+2019-10-09 20:14:09  ==>  Preparing: select * from news where id=? 
+2019-10-09 20:14:09  ==> Parameters: 70(Integer)
+2019-10-09 20:14:09  <==      Total: 1
+2019-10-09 20:14:09  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@dc24521]
+2019-10-09 20:14:09  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@dc24521]
+2019-10-09 20:14:09  Returned connection 230835489 to pool.
+2019-10-09 20:14:09  Opening JDBC Connection
+2019-10-09 20:14:09  Checked out connection 230835489 from pool.
+2019-10-09 20:14:09  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@dc24521]
+2019-10-09 20:14:09  ==>  Preparing: update news set newsid=?,title=?,context=?,newsman=?,newsdate=?,typeid=?,pic=? where id=? 
+2019-10-09 20:14:09  ==> Parameters: 111(Integer), 毛利小五郎(String), 真正的凶犯(String), 工藤新一(String), 2019-10-08 00:00:00.0(Timestamp), 3(Integer), ../img/7758258.png(String), 70(Integer)
+2019-10-09 20:14:09  <==    Updates: 1
+2019-10-09 20:14:09  Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@dc24521]
+2019-10-09 20:14:09  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@dc24521]
+2019-10-09 20:14:09  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@dc24521]
+2019-10-09 20:14:09  Returned connection 230835489 to pool.
+2019-10-09 20:16:00  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 20:16:00  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:16:00  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:16:00  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:16:00  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:16:01  Opening JDBC Connection
+2019-10-09 20:16:01  Created connection 540159270.
+2019-10-09 20:16:01  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 20:16:01  ==>  Preparing: delete from news where id=? 
+2019-10-09 20:16:02  ==> Parameters: 70(Integer)
+2019-10-09 20:16:02  <==    Updates: 1
+2019-10-09 20:16:02  Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 20:16:02  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 20:16:02  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@20322d26]
+2019-10-09 20:16:02  Returned connection 540159270 to pool.
+2019-10-09 20:17:12  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 20:17:12  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:17:12  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:17:12  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:17:12  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:17:13  Opening JDBC Connection
+2019-10-09 20:17:13  Created connection 422250493.
+2019-10-09 20:17:13  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@192b07fd]
+2019-10-09 20:17:13  ==>  Preparing: insert into news(newsid,title,context,newsman,newsdate,typeid,pic) values (?,?,?,?,?,?,?) 
+2019-10-09 20:17:14  ==> Parameters: 111(Integer), 柯南(String), 真正的凶犯(String), 工藤新一(String), 2019-10-08 00:00:00.0(Timestamp), 3(Integer), ../img/jdaj.png(String)
+2019-10-09 20:17:14  <==    Updates: 1
+2019-10-09 20:17:14  Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@192b07fd]
+2019-10-09 20:17:14  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@192b07fd]
+2019-10-09 20:17:14  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@192b07fd]
+2019-10-09 20:17:14  Returned connection 422250493 to pool.
+2019-10-09 20:17:36  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 20:17:36  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:17:36  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:17:36  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:17:36  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:17:36  Opening JDBC Connection
+2019-10-09 20:17:37  Created connection 230835489.
+2019-10-09 20:17:37  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@dc24521]
+2019-10-09 20:17:37  ==>  Preparing: select * from news where id=? 
+2019-10-09 20:17:37  ==> Parameters: 70(Integer)
+2019-10-09 20:17:37  <==      Total: 0
+2019-10-09 20:17:37  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@dc24521]
+2019-10-09 20:17:37  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@dc24521]
+2019-10-09 20:17:37  Returned connection 230835489 to pool.
+2019-10-09 20:18:01  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 20:18:01  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:18:01  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:18:01  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:18:01  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:18:02  Opening JDBC Connection
+2019-10-09 20:18:04  Created connection 230835489.
+2019-10-09 20:18:04  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@dc24521]
+2019-10-09 20:18:04  ==>  Preparing: select * from news where id=? 
+2019-10-09 20:18:04  ==> Parameters: 26(Integer)
+2019-10-09 20:18:04  <==      Total: 1
+2019-10-09 20:18:04  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@dc24521]
+2019-10-09 20:18:04  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@dc24521]
+2019-10-09 20:18:04  Returned connection 230835489 to pool.
+2019-10-09 20:18:04  Opening JDBC Connection
+2019-10-09 20:18:04  Checked out connection 230835489 from pool.
+2019-10-09 20:18:04  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@dc24521]
+2019-10-09 20:18:04  ==>  Preparing: update news set newsid=?,title=?,context=?,newsman=?,newsdate=?,typeid=?,pic=? where id=? 
+2019-10-09 20:18:04  ==> Parameters: 444(Integer), 毛利小五郎(String), 史塔克(String), IQ(String), 2019-09-22 00:00:00.0(Timestamp), 2(Integer), ../img/7758258.png(String), 26(Integer)
+2019-10-09 20:18:05  <==    Updates: 1
+2019-10-09 20:18:05  Committing JDBC Connection [oracle.jdbc.driver.T4CConnection@dc24521]
+2019-10-09 20:18:05  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@dc24521]
+2019-10-09 20:18:05  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@dc24521]
+2019-10-09 20:18:05  Returned connection 230835489 to pool.
+2019-10-09 20:18:47  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 20:18:47  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:18:47  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:18:47  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:18:47  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:37:34  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 20:37:34  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:37:34  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:37:34  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 20:37:34  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:22:11  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 23:22:11  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:22:11  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:22:11  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:22:11  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:23:04  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 23:23:04  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:23:04  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:23:04  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:23:04  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:23:04  Opening JDBC Connection
+2019-10-09 23:23:06  Created connection 1335298403.
+2019-10-09 23:23:06  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@4f970963]
+2019-10-09 23:23:06  ==>  Preparing: select count(1) from news 
+2019-10-09 23:23:07  ==> Parameters: 
+2019-10-09 23:23:07  <==      Total: 1
+2019-10-09 23:23:07  ==>  Preparing: select * from (select e.*, rownum r from (select * from news ) e) where r>? and r <=] ? 
+2019-10-09 23:23:07  ==> Parameters: 0(Integer), 3(Integer)
+2019-10-09 23:24:05  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 23:24:05  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:24:05  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:24:05  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:24:05  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:24:05  Opening JDBC Connection
+2019-10-09 23:24:08  Created connection 1335298403.
+2019-10-09 23:24:08  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@4f970963]
+2019-10-09 23:24:08  ==>  Preparing: select count(1) from news 
+2019-10-09 23:24:08  ==> Parameters: 
+2019-10-09 23:24:08  <==      Total: 1
+2019-10-09 23:24:08  ==>  Preparing: select * from (select e.*, rownum r from (select * from news ) e) where r>? and r <= ? 
+2019-10-09 23:24:08  ==> Parameters: 0(Integer), 3(Integer)
+2019-10-09 23:24:09  <==      Total: 3
+2019-10-09 23:24:09  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@4f970963]
+2019-10-09 23:24:09  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@4f970963]
+2019-10-09 23:24:09  Returned connection 1335298403 to pool.
+2019-10-09 23:24:45  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 23:24:45  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:24:45  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:24:45  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:24:45  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:29:15  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 23:29:15  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:29:15  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:29:15  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:29:15  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:29:44  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 23:29:44  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:29:44  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:29:44  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:29:44  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:32:16  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 23:32:16  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:32:16  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:32:16  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:32:16  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:37:42  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 23:37:42  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:37:42  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:37:42  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:37:42  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:37:42  Opening JDBC Connection
+2019-10-09 23:37:44  Created connection 1335298403.
+2019-10-09 23:37:44  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@4f970963]
+2019-10-09 23:37:44  ==>  Preparing: select count(1) from news 
+2019-10-09 23:37:44  ==> Parameters: 
+2019-10-09 23:37:44  <==      Total: 1
+2019-10-09 23:37:44  ==>  Preparing: select * from (select e.*, rownum r from (select * from news ) e) where r>? and r <= ? 
+2019-10-09 23:37:44  ==> Parameters: 0(Integer), 3(Integer)
+2019-10-09 23:37:44  <==      Total: 3
+2019-10-09 23:37:44  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@4f970963]
+2019-10-09 23:37:44  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@4f970963]
+2019-10-09 23:37:44  Returned connection 1335298403 to pool.
+2019-10-09 23:38:09  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 23:38:09  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:38:09  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:38:09  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:38:09  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:38:34  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 23:38:34  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:38:34  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:38:34  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:38:34  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:38:34  Opening JDBC Connection
+2019-10-09 23:38:36  Created connection 1335298403.
+2019-10-09 23:38:36  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@4f970963]
+2019-10-09 23:38:36  ==>  Preparing: select count(1) from news 
+2019-10-09 23:38:36  ==> Parameters: 
+2019-10-09 23:38:36  <==      Total: 1
+2019-10-09 23:38:36  ==>  Preparing: select * from (select e.*, rownum r from (select * from news ) e) where r>? and r <= ? 
+2019-10-09 23:38:36  ==> Parameters: 0(Integer), 3(Integer)
+2019-10-09 23:38:36  <==      Total: 3
+2019-10-09 23:38:36  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@4f970963]
+2019-10-09 23:38:36  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@4f970963]
+2019-10-09 23:38:36  Returned connection 1335298403 to pool.
+2019-10-09 23:40:01  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 23:40:01  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:40:01  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:40:01  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:40:01  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:40:01  Opening JDBC Connection
+2019-10-09 23:40:03  Created connection 731260860.
+2019-10-09 23:40:03  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@2b9627bc]
+2019-10-09 23:40:03  ==>  Preparing: select count(1) from news 
+2019-10-09 23:40:03  ==> Parameters: 
+2019-10-09 23:40:03  <==      Total: 1
+2019-10-09 23:40:03  ==>  Preparing: select * from (select e.*, rownum r from (select * from news ) e) where r>? and r <= ? 
+2019-10-09 23:40:03  ==> Parameters: 0(Integer), 3(Integer)
+2019-10-09 23:40:03  <==      Total: 3
+2019-10-09 23:40:03  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@2b9627bc]
+2019-10-09 23:40:03  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@2b9627bc]
+2019-10-09 23:40:03  Returned connection 731260860 to pool.
+2019-10-09 23:40:32  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 23:40:32  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:40:32  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:40:32  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:40:32  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:40:59  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 23:40:59  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:40:59  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:40:59  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:40:59  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:41:15  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 23:41:15  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:41:15  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:41:15  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:41:15  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:41:15  Opening JDBC Connection
+2019-10-09 23:41:17  Created connection 1335298403.
+2019-10-09 23:41:17  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@4f970963]
+2019-10-09 23:41:17  ==>  Preparing: select count(1) from news 
+2019-10-09 23:41:18  ==> Parameters: 
+2019-10-09 23:41:18  <==      Total: 1
+2019-10-09 23:41:18  ==>  Preparing: select * from (select e.*, rownum r from (select * from news ) e) where r>? and r <= ? 
+2019-10-09 23:41:18  ==> Parameters: 0(Integer), 3(Integer)
+2019-10-09 23:41:18  <==      Total: 3
+2019-10-09 23:41:18  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@4f970963]
+2019-10-09 23:41:18  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@4f970963]
+2019-10-09 23:41:18  Returned connection 1335298403 to pool.
+2019-10-09 23:42:31  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 23:42:31  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:42:31  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:42:31  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:42:31  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:42:31  Opening JDBC Connection
+2019-10-09 23:42:33  Created connection 1335298403.
+2019-10-09 23:42:33  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@4f970963]
+2019-10-09 23:42:33  ==>  Preparing: select count(1) from news 
+2019-10-09 23:42:33  ==> Parameters: 
+2019-10-09 23:42:33  <==      Total: 1
+2019-10-09 23:42:33  ==>  Preparing: select * from (select e.*, rownum r from (select * from news ) e) where r>? and r <= ? 
+2019-10-09 23:42:33  ==> Parameters: 3(Integer), 6(Integer)
+2019-10-09 23:42:33  <==      Total: 3
+2019-10-09 23:42:33  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@4f970963]
+2019-10-09 23:42:33  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@4f970963]
+2019-10-09 23:42:33  Returned connection 1335298403 to pool.
+2019-10-09 23:42:55  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 23:42:55  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:42:55  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:42:55  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:42:55  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:42:56  Opening JDBC Connection
+2019-10-09 23:42:57  Created connection 1335298403.
+2019-10-09 23:42:57  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@4f970963]
+2019-10-09 23:42:57  ==>  Preparing: select count(1) from news 
+2019-10-09 23:42:57  ==> Parameters: 
+2019-10-09 23:42:57  <==      Total: 1
+2019-10-09 23:42:57  ==>  Preparing: select * from (select e.*, rownum r from (select * from news ) e) where r>? and r <= ? 
+2019-10-09 23:42:57  ==> Parameters: 3(Integer), 6(Integer)
+2019-10-09 23:42:57  <==      Total: 3
+2019-10-09 23:42:57  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@4f970963]
+2019-10-09 23:42:57  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@4f970963]
+2019-10-09 23:42:57  Returned connection 1335298403 to pool.
+2019-10-09 23:43:12  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 23:43:12  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:43:12  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:43:12  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:43:12  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:43:12  Opening JDBC Connection
+2019-10-09 23:43:15  Created connection 1335298403.
+2019-10-09 23:43:15  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@4f970963]
+2019-10-09 23:43:15  ==>  Preparing: select count(1) from news 
+2019-10-09 23:43:15  ==> Parameters: 
+2019-10-09 23:43:15  <==      Total: 1
+2019-10-09 23:43:15  ==>  Preparing: select * from (select e.*, rownum r from (select * from news ) e) where r>? and r <= ? 
+2019-10-09 23:43:15  ==> Parameters: 0(Integer), 3(Integer)
+2019-10-09 23:43:15  <==      Total: 3
+2019-10-09 23:43:15  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@4f970963]
+2019-10-09 23:43:15  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@4f970963]
+2019-10-09 23:43:15  Returned connection 1335298403 to pool.
+2019-10-09 23:45:43  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 23:45:43  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:45:43  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:45:43  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:45:43  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:45:43  Opening JDBC Connection
+2019-10-09 23:45:45  Created connection 731260860.
+2019-10-09 23:45:45  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@2b9627bc]
+2019-10-09 23:45:45  ==>  Preparing: select count(1) from news WHERE title like concat('%', concat(?, '%')) 
+2019-10-09 23:45:45  ==> Parameters: 柯南(String)
+2019-10-09 23:45:45  <==      Total: 1
+2019-10-09 23:45:45  ==>  Preparing: select * from (select e.*, rownum r from (select * from news WHERE title like concat('%', concat(?, '%')) ) e) where r>? and r <= ? 
+2019-10-09 23:45:45  ==> Parameters: 柯南(String), 0(Integer), 3(Integer)
+2019-10-09 23:45:45  <==      Total: 1
+2019-10-09 23:45:45  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@2b9627bc]
+2019-10-09 23:45:45  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@2b9627bc]
+2019-10-09 23:45:45  Returned connection 731260860 to pool.
+2019-10-09 23:46:04  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 23:46:04  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:46:04  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:46:04  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:46:04  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:46:04  Opening JDBC Connection
+2019-10-09 23:46:05  Created connection 731260860.
+2019-10-09 23:46:05  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@2b9627bc]
+2019-10-09 23:46:05  ==>  Preparing: select count(1) from news WHERE title like concat('%', concat(?, '%')) and context like concat('%', concat(?, '%')) 
+2019-10-09 23:46:05  ==> Parameters: 柯南(String), 凶犯(String)
+2019-10-09 23:46:05  <==      Total: 1
+2019-10-09 23:46:06  ==>  Preparing: select * from (select e.*, rownum r from (select * from news WHERE title like concat('%', concat(?, '%')) and context like concat('%', concat(?, '%')) ) e) where r>? and r <= ? 
+2019-10-09 23:46:06  ==> Parameters: 柯南(String), 凶犯(String), 0(Integer), 3(Integer)
+2019-10-09 23:46:06  <==      Total: 1
+2019-10-09 23:46:06  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@2b9627bc]
+2019-10-09 23:46:06  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@2b9627bc]
+2019-10-09 23:46:06  Returned connection 731260860 to pool.
+2019-10-09 23:58:56  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 23:58:56  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:58:56  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:58:56  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:58:56  PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:58:57  Opening JDBC Connection
+2019-10-09 23:58:58  Created connection 684333937.
+2019-10-09 23:58:58  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@28ca1b71]
+2019-10-09 23:58:58  ==>  Preparing: select count(1) from news 
+2019-10-09 23:58:58  ==> Parameters: 
+2019-10-09 23:58:58  <==      Total: 1
+2019-10-09 23:58:59  ==>  Preparing: select * from (select e.*, rownum r from (select * from news ) e) where r>? and r <= ? 
+2019-10-09 23:58:59  ==> Parameters: 0(Integer), 3(Integer)
+2019-10-09 23:58:59  <==      Total: 3
+2019-10-09 23:58:59  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@28ca1b71]
+2019-10-09 23:58:59  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@28ca1b71]
+2019-10-09 23:58:59  Returned connection 684333937 to pool.
+2019-10-10 00:00:50  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-10 00:00:50  PooledDataSource forcefully closed/removed all connections.
+2019-10-10 00:00:50  PooledDataSource forcefully closed/removed all connections.
+2019-10-10 00:00:50  PooledDataSource forcefully closed/removed all connections.
+2019-10-10 00:00:50  PooledDataSource forcefully closed/removed all connections.
+2019-10-10 00:00:50  Opening JDBC Connection
+2019-10-10 00:00:52  Created connection 453588180.
+2019-10-10 00:00:52  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@1b0934d4]
+2019-10-10 00:00:52  ==>  Preparing: select count(1) from news 
+2019-10-10 00:00:52  ==> Parameters: 
+2019-10-10 00:00:53  <==      Total: 1
+2019-10-10 00:00:53  ==>  Preparing: select * from (select e.*, rownum r from (select * from news ) e) where r>? and r <= ? 
+2019-10-10 00:00:53  ==> Parameters: 0(Integer), 3(Integer)
+2019-10-10 00:00:53  <==      Total: 3
+2019-10-10 00:00:53  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@1b0934d4]
+2019-10-10 00:00:53  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@1b0934d4]
+2019-10-10 00:00:53  Returned connection 453588180 to pool.
+2019-10-10 00:00:55  Opening JDBC Connection
+2019-10-10 00:00:55  Checked out connection 453588180 from pool.
+2019-10-10 00:00:55  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@1b0934d4]
+2019-10-10 00:00:55  ==>  Preparing: select count(1) from news 
+2019-10-10 00:00:55  ==> Parameters: 
+2019-10-10 00:00:56  <==      Total: 1
+2019-10-10 00:00:56  ==>  Preparing: select * from (select e.*, rownum r from (select * from news ) e) where r>? and r <= ? 
+2019-10-10 00:00:56  ==> Parameters: 3(Integer), 6(Integer)
+2019-10-10 00:00:56  <==      Total: 3
+2019-10-10 00:00:56  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@1b0934d4]
+2019-10-10 00:00:56  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@1b0934d4]
+2019-10-10 00:00:56  Returned connection 453588180 to pool.
+2019-10-10 00:00:58  Opening JDBC Connection
+2019-10-10 00:00:58  Checked out connection 453588180 from pool.
+2019-10-10 00:00:58  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@1b0934d4]
+2019-10-10 00:00:58  ==>  Preparing: select count(1) from news 
+2019-10-10 00:00:58  ==> Parameters: 
+2019-10-10 00:00:58  <==      Total: 1
+2019-10-10 00:00:58  ==>  Preparing: select * from (select e.*, rownum r from (select * from news ) e) where r>? and r <= ? 
+2019-10-10 00:00:58  ==> Parameters: 0(Integer), 3(Integer)
+2019-10-10 00:00:58  <==      Total: 3
+2019-10-10 00:00:58  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@1b0934d4]
+2019-10-10 00:00:58  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@1b0934d4]
+2019-10-10 00:00:58  Returned connection 453588180 to pool.
+2019-10-10 00:01:06  Opening JDBC Connection
+2019-10-10 00:01:06  Checked out connection 453588180 from pool.
+2019-10-10 00:01:06  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@1b0934d4]
+2019-10-10 00:01:06  ==>  Preparing: select count(1) from news WHERE title like concat('%', concat(?, '%')) 
+2019-10-10 00:01:06  ==> Parameters: ����(String)
+2019-10-10 00:01:06  <==      Total: 1
+2019-10-10 00:01:06  ==>  Preparing: select * from (select e.*, rownum r from (select * from news WHERE title like concat('%', concat(?, '%')) ) e) where r>? and r <= ? 
+2019-10-10 00:01:06  ==> Parameters: ����(String), 0(Integer), 3(Integer)
+2019-10-10 00:01:06  <==      Total: 1
+2019-10-10 00:01:06  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@1b0934d4]
+2019-10-10 00:01:06  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@1b0934d4]
+2019-10-10 00:01:06  Returned connection 453588180 to pool.
+2019-10-10 00:01:08  Opening JDBC Connection
+2019-10-10 00:01:08  Checked out connection 453588180 from pool.
+2019-10-10 00:01:08  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@1b0934d4]
+2019-10-10 00:01:08  ==>  Preparing: select count(1) from news WHERE title like concat('%', concat(?, '%')) 
+2019-10-10 00:01:08  ==> Parameters: ����(String)
+2019-10-10 00:01:08  <==      Total: 1
+2019-10-10 00:01:08  ==>  Preparing: select * from (select e.*, rownum r from (select * from news WHERE title like concat('%', concat(?, '%')) ) e) where r>? and r <= ? 
+2019-10-10 00:01:08  ==> Parameters: ����(String), 0(Integer), 3(Integer)
+2019-10-10 00:01:08  <==      Total: 1
+2019-10-10 00:01:08  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@1b0934d4]
+2019-10-10 00:01:08  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@1b0934d4]
+2019-10-10 00:01:08  Returned connection 453588180 to pool.
+2019-10-10 00:01:14  Opening JDBC Connection
+2019-10-10 00:01:14  Checked out connection 453588180 from pool.
+2019-10-10 00:01:14  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@1b0934d4]
+2019-10-10 00:01:14  ==>  Preparing: select count(1) from news 
+2019-10-10 00:01:14  ==> Parameters: 
+2019-10-10 00:01:14  <==      Total: 1
+2019-10-10 00:01:14  ==>  Preparing: select * from (select e.*, rownum r from (select * from news ) e) where r>? and r <= ? 
+2019-10-10 00:01:14  ==> Parameters: 0(Integer), 3(Integer)
+2019-10-10 00:01:15  <==      Total: 3
+2019-10-10 00:01:15  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@1b0934d4]
+2019-10-10 00:01:15  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@1b0934d4]
+2019-10-10 00:01:15  Returned connection 453588180 to pool.
+2019-10-10 00:01:17  Opening JDBC Connection
+2019-10-10 00:01:17  Checked out connection 453588180 from pool.
+2019-10-10 00:01:17  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@1b0934d4]
+2019-10-10 00:01:17  ==>  Preparing: select count(1) from news 
+2019-10-10 00:01:17  ==> Parameters: 
+2019-10-10 00:01:17  <==      Total: 1
+2019-10-10 00:01:17  ==>  Preparing: select * from (select e.*, rownum r from (select * from news ) e) where r>? and r <= ? 
+2019-10-10 00:01:17  ==> Parameters: 3(Integer), 6(Integer)
+2019-10-10 00:01:17  <==      Total: 3
+2019-10-10 00:01:17  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@1b0934d4]
+2019-10-10 00:01:17  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@1b0934d4]
+2019-10-10 00:01:17  Returned connection 453588180 to pool.
+2019-10-10 00:08:35  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-10 00:08:35  PooledDataSource forcefully closed/removed all connections.
+2019-10-10 00:08:35  PooledDataSource forcefully closed/removed all connections.
+2019-10-10 00:08:35  PooledDataSource forcefully closed/removed all connections.
+2019-10-10 00:08:35  PooledDataSource forcefully closed/removed all connections.
+2019-10-10 00:08:35  Opening JDBC Connection
+2019-10-10 00:08:36  Created connection 2096309813.
+2019-10-10 00:08:36  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@7cf32635]
+2019-10-10 00:08:36  ==>  Preparing: select * from t_user where name=? and pwd=? 
+2019-10-10 00:08:37  ==> Parameters: qianfg(String), 666(String)
+2019-10-10 00:08:37  <==      Total: 1
+2019-10-10 00:08:37  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@7cf32635]
+2019-10-10 00:08:37  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@7cf32635]
+2019-10-10 00:08:37  Returned connection 2096309813 to pool.
+2019-10-10 00:08:37  Opening JDBC Connection
+2019-10-10 00:08:37  Checked out connection 2096309813 from pool.
+2019-10-10 00:08:37  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@7cf32635]
+2019-10-10 00:08:37  ==>  Preparing: select count(1) from news 
+2019-10-10 00:08:37  ==> Parameters: 
+2019-10-10 00:08:37  <==      Total: 1
+2019-10-10 00:08:37  ==>  Preparing: select * from (select e.*, rownum r from (select * from news ) e) where r>? and r <= ? 
+2019-10-10 00:08:37  ==> Parameters: 0(Integer), 3(Integer)
+2019-10-10 00:08:38  <==      Total: 3
+2019-10-10 00:08:38  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@7cf32635]
+2019-10-10 00:08:38  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@7cf32635]
+2019-10-10 00:08:38  Returned connection 2096309813 to pool.
+2019-10-10 00:08:51  Opening JDBC Connection
+2019-10-10 00:08:51  Checked out connection 2096309813 from pool.
+2019-10-10 00:08:51  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@7cf32635]
+2019-10-10 00:08:51  ==>  Preparing: select * from t_user where name=? and pwd=? 
+2019-10-10 00:08:51  ==> Parameters: qianfg(String), 666(String)
+2019-10-10 00:08:51  <==      Total: 1
+2019-10-10 00:08:51  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@7cf32635]
+2019-10-10 00:08:51  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@7cf32635]
+2019-10-10 00:08:51  Returned connection 2096309813 to pool.
+2019-10-10 00:08:51  Opening JDBC Connection
+2019-10-10 00:08:51  Checked out connection 2096309813 from pool.
+2019-10-10 00:08:51  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@7cf32635]
+2019-10-10 00:08:51  ==>  Preparing: select count(1) from news 
+2019-10-10 00:08:51  ==> Parameters: 
+2019-10-10 00:08:51  <==      Total: 1
+2019-10-10 00:08:51  ==>  Preparing: select * from (select e.*, rownum r from (select * from news ) e) where r>? and r <= ? 
+2019-10-10 00:08:51  ==> Parameters: 0(Integer), 3(Integer)
+2019-10-10 00:08:51  <==      Total: 3
+2019-10-10 00:08:51  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@7cf32635]
+2019-10-10 00:08:51  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@7cf32635]
+2019-10-10 00:08:51  Returned connection 2096309813 to pool.
+2019-10-10 00:09:03  Opening JDBC Connection
+2019-10-10 00:09:03  Checked out connection 2096309813 from pool.
+2019-10-10 00:09:03  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@7cf32635]
+2019-10-10 00:09:03  ==>  Preparing: select * from t_user where name=? and pwd=? 
+2019-10-10 00:09:03  ==> Parameters: qianfg(String), 666(String)
+2019-10-10 00:09:04  <==      Total: 1
+2019-10-10 00:09:04  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@7cf32635]
+2019-10-10 00:09:04  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@7cf32635]
+2019-10-10 00:09:04  Returned connection 2096309813 to pool.
+2019-10-10 00:09:04  Opening JDBC Connection
+2019-10-10 00:09:04  Checked out connection 2096309813 from pool.
+2019-10-10 00:09:04  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@7cf32635]
+2019-10-10 00:09:04  ==>  Preparing: select count(1) from news 
+2019-10-10 00:09:04  ==> Parameters: 
+2019-10-10 00:09:04  <==      Total: 1
+2019-10-10 00:09:04  ==>  Preparing: select * from (select e.*, rownum r from (select * from news ) e) where r>? and r <= ? 
+2019-10-10 00:09:04  ==> Parameters: 0(Integer), 3(Integer)
+2019-10-10 00:09:04  <==      Total: 3
+2019-10-10 00:09:04  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@7cf32635]
+2019-10-10 00:09:04  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@7cf32635]
+2019-10-10 00:09:04  Returned connection 2096309813 to pool.
+2019-10-10 00:10:20  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-10 00:10:20  PooledDataSource forcefully closed/removed all connections.
+2019-10-10 00:10:20  PooledDataSource forcefully closed/removed all connections.
+2019-10-10 00:10:20  PooledDataSource forcefully closed/removed all connections.
+2019-10-10 00:10:20  PooledDataSource forcefully closed/removed all connections.
+2019-10-10 00:10:20  Opening JDBC Connection
+2019-10-10 00:10:23  Created connection 1527750697.
+2019-10-10 00:10:23  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@5b0fa029]
+2019-10-10 00:10:23  ==>  Preparing: select * from t_user where name=? and pwd=? 
+2019-10-10 00:10:23  ==> Parameters: qianfg(String), 666(String)
+2019-10-10 00:10:24  <==      Total: 1
+2019-10-10 00:10:24  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@5b0fa029]
+2019-10-10 00:10:24  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@5b0fa029]
+2019-10-10 00:10:24  Returned connection 1527750697 to pool.
+2019-10-10 00:10:24  Opening JDBC Connection
+2019-10-10 00:10:24  Checked out connection 1527750697 from pool.
+2019-10-10 00:10:24  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@5b0fa029]
+2019-10-10 00:10:24  ==>  Preparing: select count(1) from news 
+2019-10-10 00:10:24  ==> Parameters: 
+2019-10-10 00:10:24  <==      Total: 1
+2019-10-10 00:10:24  ==>  Preparing: select * from (select e.*, rownum r from (select * from news ) e) where r>? and r <= ? 
+2019-10-10 00:10:24  ==> Parameters: 0(Integer), 3(Integer)
+2019-10-10 00:10:24  <==      Total: 3
+2019-10-10 00:10:24  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@5b0fa029]
+2019-10-10 00:10:24  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@5b0fa029]
+2019-10-10 00:10:24  Returned connection 1527750697 to pool.
+2019-10-10 00:10:34  Opening JDBC Connection
+2019-10-10 00:10:34  Checked out connection 1527750697 from pool.
+2019-10-10 00:10:34  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@5b0fa029]
+2019-10-10 00:10:34  ==>  Preparing: select * from t_user where name=? and pwd=? 
+2019-10-10 00:10:34  ==> Parameters: qianfg(String), 666(String)
+2019-10-10 00:10:34  <==      Total: 1
+2019-10-10 00:10:34  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@5b0fa029]
+2019-10-10 00:10:34  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@5b0fa029]
+2019-10-10 00:10:34  Returned connection 1527750697 to pool.
+2019-10-10 00:10:34  Opening JDBC Connection
+2019-10-10 00:10:34  Checked out connection 1527750697 from pool.
+2019-10-10 00:10:34  Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@5b0fa029]
+2019-10-10 00:10:34  ==>  Preparing: select count(1) from news 
+2019-10-10 00:10:34  ==> Parameters: 
+2019-10-10 00:10:34  <==      Total: 1
+2019-10-10 00:10:34  ==>  Preparing: select * from (select e.*, rownum r from (select * from news ) e) where r>? and r <= ? 
+2019-10-10 00:10:34  ==> Parameters: 0(Integer), 3(Integer)
+2019-10-10 00:10:34  <==      Total: 3
+2019-10-10 00:10:34  Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@5b0fa029]
+2019-10-10 00:10:34  Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@5b0fa029]
+2019-10-10 00:10:34  Returned connection 1527750697 to pool.
