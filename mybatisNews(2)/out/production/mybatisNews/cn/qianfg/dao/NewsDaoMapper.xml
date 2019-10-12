@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--
+    namespace:命名空间,必须是对应接口的全路径
+-->
+
+<mapper namespace="cn.qianfg.dao.NewsDao">
+    <!--
+    查询
+    id:必须是对应方法的名称
+    resultType:你希望mybatis把结果集封装成那个实体类
+    -->
+    <!--添加-->
+    <insert id="addNews" parameterType="news">
+        insert into news(newsid,title,context,newsman,newsdate,typeid,pic)
+         values (#{newsId},#{title},#{context},#{newsMan},#{newsDate},#{typeId},#{pic})
+    </insert>
+    <!--删除-->
+    <delete id="deleteNews" parameterType="int">
+        delete from news where id=#{id}
+    </delete>
+    <!--修改-->
+    <update id="updateNews" parameterType="news">
+        update news set newsid=#{newsId},title=#{title},context=#{context},newsman=#{newsMan},newsdate=#{newsDate},typeid=#{typeId},pic=#{pic} where id=#{id}
+    </update>
+    <!--根据id查询-->
+    <select id="queryNewsById" parameterType="int" resultType="news">
+        select * from news where id=#{id}
+    </select>
+    <!--多条件分页查询-->
+    <select id="queryNewsByFy" parameterType="fy" resultType="news">
+        select * from (select e.*, rownum r from (select * from news
+        <where>
+            <if  test="queryNews.qTitle!=null and queryNews.qTitle!=''">
+                and title like concat('%', concat(#{queryNews.qTitle}, '%'))
+            </if>
+            <if test="queryNews.qContext!=null and queryNews.qContext!=''">
+                and context like concat('%', concat(#{queryNews.qContext}, '%'))
+            </if>
+        </where>
+        ) e) where r>#{rowsStart} and r<![CDATA[<=]]>#{rowsEnd}
+    </select>
+    <!--符合要求记录总数-->
+    <select id="queryNewsCount" parameterType="query" resultType="int">
+        select count(1) from news
+        <where>
+            <if  test="qTitle!=null and qTitle!=''">
+                and title like concat('%', concat(#{qTitle}, '%'))
+            </if>
+            <if test="qContext!=null and qContext!=''">
+                and context like concat('%', concat(#{qContext}, '%'))
+            </if>
+        </where>
+    </select>
+
+</mapper>

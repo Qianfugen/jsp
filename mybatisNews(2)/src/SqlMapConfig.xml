@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--导入jdbc.properties-->
+    <properties resource="jdbc.properties"></properties>
+    <!--设置空值处理-->
+    <settings>
+        <setting name="jdbcTypeForNull" value="NULL"/>
+    </settings>
+    <!--设置别名-->
+    <typeAliases>
+        <typeAlias type="cn.qianfg.pojo.FenYe" alias="fy"></typeAlias>
+        <typeAlias type="cn.qianfg.pojo.News" alias="news"></typeAlias>
+        <typeAlias type="cn.qianfg.pojo.QueryNews" alias="query"></typeAlias>
+        <typeAlias type="cn.qianfg.pojo.User" alias="user"></typeAlias>
+    </typeAliases>
+    <!--mybatis开发环境的配置-->
+    <environments default="development">
+        <environment id="development">
+            <!-- 使用JDBC的事务管理方式 -->
+            <transactionManager type="JDBC"></transactionManager>
+            <!-- 使用mybatis自己的连接池 -->
+            <dataSource type="POOLED">
+                <!--数据库的驱动地址-->
+                <property name="driver" value="${jdbc.driver}"/>
+                <!--数据库的连接地址-->
+                <property name="url" value="${jdbc.url}"/>
+                <!--数据库的用户名-->
+                <property name="username" value="${jdbc.name}"/>
+                <!--数据库的登录密码-->
+                <property name="password" value="${jdbc.pwd}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!--引入映射文件-->
+    <mappers>
+        <mapper resource="cn/qianfg/dao/NewsDaoMapper.xml"/>
+        <mapper resource="cn/qianfg/dao/UserDaoMapper.xml"/>
+        <mapper resource="cn/qianfg/dao/NewsTypeDaoMapper.xml"/>
+    </mappers>
+
+</configuration>
