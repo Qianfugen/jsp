@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+namespace:必须是对应接口的全路径
+-->
+<mapper namespace="cn.qianfg.dao.RoleDao">
+    <resultMap id="roleAndPower" type="role">
+        <id property="id" column="id"></id>
+        <result property="roleId" column="role_id"></result>
+        <result property="name" column="name"></result>
+        <collection property="powers" column="id" ofType="power" select="cn.qianfg.dao.PowerDao.queryPowerByRole"></collection>
+        <!--
+           select * from  T_ROLE_POWER rp,t_power p where rp.P_ID=p.id and rp.r_id=#{Id}
+        -->
+    </resultMap>
+    <!--dao接口里面的每个方法必须对应一条sql语句,映射文件中的sql语句没有必须非对应接口中的方法-->
+    <select id="queryRoleByUser" resultMap="roleAndPower" parameterType="int">
+        select * from TEST_ROLE where role_id=#{r_id}
+    </select>
+</mapper>

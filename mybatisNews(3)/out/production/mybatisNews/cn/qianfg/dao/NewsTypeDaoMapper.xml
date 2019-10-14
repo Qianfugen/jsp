@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--
+    namespace:命名空间,必须是对应接口的全路径
+-->
+
+<mapper namespace="cn.qianfg.dao.NewsTypeDao">
+    <!--
+    查询
+    id:必须是对应方法的名称
+    resultType:你希望mybatis把结果集封装成那个实体类
+    -->
+    <select id="queryAllNewsType" resultType="cn.qianfg.pojo.NewsType">
+        select * from newstype
+    </select>
+</mapper>
