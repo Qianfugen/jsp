@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+    <!--开启注解扫描-->
+    <context:component-scan base-package="cn.qianfg"></context:component-scan>
+    <!--开启事务管理注解开发功能-->
+    <tx:annotation-driven transaction-manager="transactionManager"></tx:annotation-driven>
+    <!--到入jdbc.properties资源文件-->
+    <context:property-placeholder location="classpath:jdbc.properties"></context:property-placeholder>
+    <!--配置连接池对象:Connection-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="user" value="${jdbc.name}"></property>
+        <property name="password" value="${jdbc.pwd}"></property>
+        <property name="driverClass" value="${jdbc.driver}"></property>
+        <property name="jdbcUrl" value="${jdbc.url}"></property>
+    </bean>
+    <!--SqlSessionFactory对象:负责对Connection进行包装生成SqlSession-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--把连接池交给该对象-->
+        <property name="dataSource" ref="dataSource"></property>
+        <!--加载mybatis主配置文件-->
+        <property name="configLocation" value="classpath:SqlMapConfig.xml"></property>
+    </bean>
+    <!--配置自动生成接口实现类的对象,并且注册到IOC容器中-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!--把SqlSessionFactory对象交给该对象-->
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
+        <!--指定dao层接口所在的位置-->
+        <property name="basePackage" value="cn.qianfg.dao"></property>
+    </bean>
+    <!--事务管理相关配置-->
+    <!--配置事务管理切面对象-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <!--把连接池对象交给事务管理器-->
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+</beans>
