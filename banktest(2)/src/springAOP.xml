@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <!--事务管理相关配置-->
+    <!--配置事务管理切面对象-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <!--把连接池对象交给事务管理器-->
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+    <!--配置事务属性-->
+    <tx:advice id="ad1" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="*"></tx:method>
+        </tx:attributes>
+    </tx:advice>
+    <!--通过AOP把事务属性配置给对应的方法-->
+    <aop:config>
+        <!--配置切点表达式-->
+        <aop:pointcut id="tr1" expression="execution(* cn.qianfg.service..*.*(..))"/>
+        <!--把切点表达式和事务属性进行关联-->
+        <aop:advisor advice-ref="ad1" pointcut-ref="tr1"></aop:advisor>
+        <aop:aspect ref="logAspect">
+            <aop:before method="before" pointcut-ref="tr1"></aop:before>
+            <aop:before method="after" pointcut-ref="tr1"></aop:before>
+        </aop:aspect>
+    </aop:config>
+</beans>
